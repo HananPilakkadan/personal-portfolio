@@ -1,4 +1,6 @@
 .Social_icons {
+  position: relative;
+  z-index: 999;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,9 +19,7 @@
     svg {
       transition: 0.3s ease-in;
     }
-    &:hover {
-      background: radial-gradient(circle, #8e8e8e 0%, #ffffff00 100%);
-    }
+
     &:hover svg {
       //   fill: linear-gradient(to right, #ff0000, #00ff00);
       transform: scale(1.2);
