@@ -24,16 +24,32 @@ const SocialIcons = () => {
   }, []);
   return (
     <div ref={socialRef} className={Style.Social_icons}>
-      <Link href="/" className="text-neutral-200 ">
+      <Link
+        href="https://www.linkedin.com/in/hananp/"
+        target="_blank"
+        className="text-neutral-200 "
+      >
         <FaLinkedinIn />
       </Link>
-      <Link href="/" className="text-neutral-200 ">
+      <Link
+        href="https://github.com/HananPilakkadan"
+        target="_blank"
+        className="text-neutral-200 "
+      >
         <FaGithub />
       </Link>
-      <Link href="/" className="text-neutral-200 ">
+      <Link
+        href="https://www.instagram.com/hanaan.me"
+        target="_blank"
+        className="text-neutral-200 "
+      >
         <FaInstagram />
       </Link>
-      <Link href="/" className="text-neutral-200 ">
+      <Link
+        href="https://x.com/hanaanme"
+        target="_blank"
+        className="text-neutral-200 "
+      >
         <FaXTwitter />
       </Link>
     </div>
