@@ -25,14 +25,14 @@ const SocialIcons = () => {
   return (
     <div ref={socialRef} className={Style.Social_icons}>
       <Link
-        href="https://www.linkedin.com/in/hananp/"
+        href="https://www.linkedin.com/in/hananpk"
         target="_blank"
         className="text-neutral-200 "
       >
         <FaLinkedinIn />
       </Link>
       <Link
-        href="https://github.com/HananPilakkadan"
+        href="https://github.com/hananpk"
         target="_blank"
         className="text-neutral-200 "
       >
